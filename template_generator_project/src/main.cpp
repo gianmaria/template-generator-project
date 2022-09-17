@@ -1,0 +1,8 @@
+#include "pch.h"
+
+int main()
+{
+    cout << "hello world" << endl;
+
+    return 0;
+}
