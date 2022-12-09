@@ -1,6 +1,7 @@
 #pragma once
 
 #include <algorithm>
+#include <array>
 #include <chrono>
 #include <exception>
 #include <filesystem>
@@ -9,9 +10,12 @@
 #include <future>
 #include <iostream>
 #include <list>
+#include <map>
 #include <mutex>
+#include <numeric>
 #include <optional>
 #include <random>
+#include <set>
 #include <sstream>
 #include <stdexcept>
 #include <string_view>
@@ -27,7 +31,7 @@ using std::cout;
 using std::endl;
 using std::string;
 using std::string_view;
-using std::optional;
+using std::vector;
 
 using namespace std::string_literals;
 using namespace std::string_view_literals;
