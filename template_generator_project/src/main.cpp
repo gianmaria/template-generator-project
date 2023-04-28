@@ -12,6 +12,7 @@
 #include <mutex>
 #include <numeric>
 #include <optional>
+#include <queue>
 #include <random>
 #include <set>
 #include <sstream>
@@ -25,7 +26,6 @@
 #include <utility>
 #include <variant>
 #include <vector>
-#include <queue>
 
 using u8 = uint8_t;
 using u16 = uint16_t;
