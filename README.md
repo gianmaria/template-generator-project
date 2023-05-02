@@ -1,3 +1,3 @@
 # Export settings
-Template name: Hello World C++ \
+Template name: C++ Template \
 Template descritpion: YES THIS ONE!
