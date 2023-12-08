@@ -113,7 +113,7 @@
       <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <DisableAnalyzeExternal>true</DisableAnalyzeExternal>
-      <DisableSpecificWarnings>5045;4820;4710;4711</DisableSpecificWarnings>
+      <DisableSpecificWarnings>5045;4820;4710;4711;4868</DisableSpecificWarnings>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
@@ -134,7 +134,7 @@
       <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <DisableAnalyzeExternal>true</DisableAnalyzeExternal>
-      <DisableSpecificWarnings>5045;4820;4710;4711</DisableSpecificWarnings>
+      <DisableSpecificWarnings>5045;4820;4710;4711;4868</DisableSpecificWarnings>
       <SupportJustMyCode>true</SupportJustMyCode>
     </ClCompile>
     <Link>
@@ -155,7 +155,7 @@
       <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <DisableAnalyzeExternal>true</DisableAnalyzeExternal>
-      <DisableSpecificWarnings>5045;4820;4710;4711</DisableSpecificWarnings>
+      <DisableSpecificWarnings>5045;4820;4710;4711;4868</DisableSpecificWarnings>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
@@ -176,7 +176,7 @@
       <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <DisableAnalyzeExternal>true</DisableAnalyzeExternal>
-      <DisableSpecificWarnings>5045;4820;4710;4711</DisableSpecificWarnings>
+      <DisableSpecificWarnings>5045;4820;4710;4711;4868</DisableSpecificWarnings>
       <SupportJustMyCode>true</SupportJustMyCode>
     </ClCompile>
     <Link>
