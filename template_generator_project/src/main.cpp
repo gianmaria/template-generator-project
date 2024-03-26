@@ -2,25 +2,14 @@
 
 // PVS-Studio Static Code Analyzer for C, C++, C#, and Java: https://pvs-studio.com
 
-#include <array>
-#include <assert.h>
-#include <cstdint>
 #include <exception>
-#include <filesystem>
 #include <format>
-#include <fstream>
 #include <iostream>
-#include <iterator>
-#include <limits>
-#include <map>
-#include <numeric>
-#include <queue>
-#include <ranges>
-#include <regex>
-#include <set>
-#include <string_view>
+#include <print>
 #include <string>
 #include <vector>
+
+#include <Windows.h>
 
 using u8 = uint8_t;
 using u16 = uint16_t;
@@ -37,8 +26,6 @@ using std::endl;
 using std::string;
 using std::string_view;
 using std::vector;
-using std::set;
-using std::map;
 
 using str = std::string;
 using str_cref = std::string const&;
@@ -49,11 +36,16 @@ using vec = vector<T>;
 using namespace std::string_literals;
 using namespace std::string_view_literals;
 
-namespace fs = std::filesystem;
+//namespace fs = std::filesystem;
 
 
-int main()
+int main(int argc, char* argv[])
 {
-    cout << "hello" << endl;
+    SetConsoleCP(CP_UTF8);
+    SetConsoleOutputCP(CP_UTF8); 
+
+    //cout << "hello 😁" << endl;
+    std::println("Hello {}", "😁");
+
     return 0;
 }
