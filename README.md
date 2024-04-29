@@ -1,3 +1,3 @@
 # Export settings
-Template name: C++ Template \
+Template name: C++ Empty Project \
 Template descritpion: YES THIS ONE!
