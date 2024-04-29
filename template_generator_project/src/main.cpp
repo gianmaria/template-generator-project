@@ -36,7 +36,7 @@ using vec = vector<T>;
 using namespace std::string_literals;
 using namespace std::string_view_literals;
 
-//namespace fs = std::filesystem;
+namespace fs = std::filesystem;
 
 
 int main(int argc, char* argv[])
