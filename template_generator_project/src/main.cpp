@@ -2,14 +2,13 @@
 
 // PVS-Studio Static Code Analyzer for C, C++, C#, and Java: https://pvs-studio.com
 
-#include <exception>
-#include <format>
+#define NOMINMAX
+#include <Windows.h>
+
 #include <iostream>
 #include <print>
 #include <string>
 #include <vector>
-
-#include <Windows.h>
 
 using u8 = uint8_t;
 using u16 = uint16_t;
@@ -36,15 +35,12 @@ using vec = vector<T>;
 using namespace std::string_literals;
 using namespace std::string_view_literals;
 
-namespace fs = std::filesystem;
-
 
 int main(int argc, char* argv[])
 {
     SetConsoleCP(CP_UTF8);
     SetConsoleOutputCP(CP_UTF8); 
 
-    //cout << "hello 😁" << endl;
     std::println("Hello {}", "😁");
 
     return 0;
