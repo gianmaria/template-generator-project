@@ -113,7 +113,7 @@
       <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <DisableAnalyzeExternal>true</DisableAnalyzeExternal>
-      <DisableSpecificWarnings>5045;4820;4710;4711;4868</DisableSpecificWarnings>
+      <DisableSpecificWarnings>5045;4820;4710;4711;4868;4514</DisableSpecificWarnings>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <AdditionalOptions>/utf-8 /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
@@ -135,7 +135,7 @@
       <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <DisableAnalyzeExternal>true</DisableAnalyzeExternal>
-      <DisableSpecificWarnings>5045;4820;4710;4711;4868</DisableSpecificWarnings>
+      <DisableSpecificWarnings>5045;4820;4710;4711;4868;4514</DisableSpecificWarnings>
       <SupportJustMyCode>true</SupportJustMyCode>
       <AdditionalOptions>/utf-8 /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
@@ -157,7 +157,7 @@
       <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <DisableAnalyzeExternal>true</DisableAnalyzeExternal>
-      <DisableSpecificWarnings>5045;4820;4710;4711;4868</DisableSpecificWarnings>
+      <DisableSpecificWarnings>5045;4820;4710;4711;4868;4514</DisableSpecificWarnings>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <AdditionalOptions>/utf-8 /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
@@ -179,7 +179,7 @@
       <TreatAngleIncludeAsExternal>true</TreatAngleIncludeAsExternal>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
       <DisableAnalyzeExternal>true</DisableAnalyzeExternal>
-      <DisableSpecificWarnings>5045;4820;4710;4711;4868</DisableSpecificWarnings>
+      <DisableSpecificWarnings>5045;4820;4710;4711;4868;4514</DisableSpecificWarnings>
       <SupportJustMyCode>true</SupportJustMyCode>
       <AdditionalOptions>/utf-8 /Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
