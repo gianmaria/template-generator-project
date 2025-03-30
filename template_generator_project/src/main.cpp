@@ -39,7 +39,7 @@ using namespace std::string_view_literals;
 int main(int argc, char* argv[])
 {
     SetConsoleCP(CP_UTF8);
-    SetConsoleOutputCP(CP_UTF8); 
+    SetConsoleOutputCP(CP_UTF8);
 
     std::println("Hello {}", "😁");
 
