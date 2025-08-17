@@ -87,16 +87,16 @@
     <CopyCppRuntimeToOutputDir>true</CopyCppRuntimeToOutputDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>C:\Workspace\.vs-builds\$(SolutionName)\$(ProjectName)\build\$(Configuration)\$(Platform)\</OutDir>
-    <IntDir>C:\Workspace\.vs-builds\$(SolutionName)\$(ProjectName)\build-int\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)\out\build\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)\out\build-int\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
     <CopyLocalDeploymentContent>true</CopyLocalDeploymentContent>
     <CopyLocalProjectReference>true</CopyLocalProjectReference>
     <CopyLocalDebugSymbols>true</CopyLocalDebugSymbols>
     <CopyCppRuntimeToOutputDir>true</CopyCppRuntimeToOutputDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>C:\Workspace\.vs-builds\$(SolutionName)\$(ProjectName)\build\$(Configuration)\$(Platform)\</OutDir>
-    <IntDir>C:\Workspace\.vs-builds\$(SolutionName)\$(ProjectName)\build-int\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)\out\build\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)\out\build-int\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
     <CopyLocalDeploymentContent>true</CopyLocalDeploymentContent>
     <CopyLocalProjectReference>true</CopyLocalProjectReference>
     <CopyLocalDebugSymbols>true</CopyLocalDebugSymbols>
